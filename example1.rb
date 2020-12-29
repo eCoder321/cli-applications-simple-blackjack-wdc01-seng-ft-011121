@@ -21,11 +21,3 @@ def run_program
   
   personalized_welcome(name)
 end
-
-
-
-while result != 's' and result != 'h' do
-    invalid_command
-    prompt_user
-    result = get_user_input
-end
